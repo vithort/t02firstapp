@@ -7,8 +7,14 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  public inputVal: string;
+
   constructor(public navCtrl: NavController) {
 
+  }
+
+  buttonClick() {
+    alert(this.inputVal);
   }
 
 }
